@@ -57,6 +57,7 @@ main{
     padding: 0rem 2rem;
     margin: auto;
     overflow: clip;
+    align-items: center;
 }
 .hero-conteudo{
     display: flex;
@@ -73,4 +74,101 @@ main{
 .hero-imagens-box > figure > img{
     width: 100%;
     border-radius: 0.5rem;
+}
+.destaque{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: ;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr{
+    border-color: black;
+}
+
+.classeh2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.botao1{
+
+    width: 100%;
+    max-width: 1120px;
+   
+    margin: auto;
+    transform: translate("0, -50%");
+}
+button{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-image: url(bt.jpg);
+    background-size: contain; /* Ajusta a imagem para caber dentro do botão */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    cursor: pointer;
+}
+.receitas{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitastitulos{
+
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.receitassubtitulos{
+ 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.receitas-card{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.pipi{
+    background-color: rgb(59, 59, 59);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+}
+.pipi2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.pipi3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.pipi4{
+    font-family:;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
 }
